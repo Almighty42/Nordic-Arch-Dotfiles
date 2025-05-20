@@ -131,7 +131,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias v="nvim"
-alias cat="bat"
 alias ls="lsd"
 alias cdev="cd /home/Almighty42/Development"
 alias cdoc="cd /home/Almighty42/Documents"
