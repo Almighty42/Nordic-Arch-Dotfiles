@@ -5,14 +5,13 @@
 #export QT_QPA_PLATFORMTHEME=qt5ct
 
 # ENVIROMENT VARIABLES
-export QT_STYLE_OVERRIDE=kvantum
 export RANGER_LOAD_DEFAULT_RC=false
 export EDITOR=nvim
 export VISUAL=nvim
 export DEVICE=T480
 export CHILD_DEVICE=X230
 export BACKUP_SCRIPTS=$HOME/Scripts/User-Scripts/Backup-Scripts
-neofetch --imgcat --position 0,-50 --source ~/.config/neofetch/Terminal-Image-Tmp.png
+neofetch --imgcat --position 0,-50 --source $HOME/.config/neofetch/Terminal-Image-Tmp.png
 
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
@@ -135,28 +134,28 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias v="nvim"
 alias ls="lsd"
-alias cdev="cd /home/Almighty42/Development"
-alias cdoc="cd /home/Almighty42/Documents"
-alias cdow="cd /home/Almighty42/Downloads"
-alias cmus="cd /home/Almighty42/Music"
-alias cpic="cd /home/Almighty42/Pictures"
-alias crep="cd /home/Almighty42/Repositories"
-alias ccon="cd /home/Almighty42/.config"
-alias config='/usr/bin/git --git-dir=/home/Almighty42/.cfg/ --work-tree=/home/Almighty42'
-alias s="/home/Almighty42/Scripts/User-Scripts"
+alias cdev="cd $HOME/Development"
+alias cdoc="cd $HOME/Documents"
+alias cdow="cd $HOME/Downloads"
+alias cmus="cd $HOME/Music"
+alias cpic="cd $HOME/Pictures"
+alias crep="cd $HOME/Repositories"
+alias ccon="cd $HOME/.config"
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+alias s="$HOME/Scripts/User-Scripts"
 alias st="systemctl-tui"
 
 gclfull() {
-  /home/Almighty42/Scripts/User-Scripts/gclfull.sh $1 $2
+  $HOME/Scripts/User-Scripts/gclfull.sh $1 $2
 }
 cr() {
-  /home/Almighty42/Scripts/User-Scripts/compilerun.sh $1
+  $HOME/Scripts/User-Scripts/compilerun.sh $1
 }
 gitqadd() {
-  /home/Almighty42/Scripts/User-Scripts/gitqadd.sh $1
+  $HOME/Scripts/User-Scripts/gitqadd.sh $1
 }
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 #source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /home/Almighty42/.config/nvim/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source $HOME/.config/nvim/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
