@@ -1,0 +1,12 @@
+   114.8ms (setup:1108): 2025-04-14 19:07:35
+   114.9ms (setup:1109): /usr/bin/pipx ensurepath --global
+   114.9ms (setup:1110): pipx version is 1.7.1
+   114.9ms (setup:1111): Default python interpreter is '/usr/bin/python3.13'
+   115.0ms (mkdir:76): creating directory /opt/pipx/venvs
+   115.2ms (mkdir:76): creating directory /opt/pipx/.cache
+   115.3ms (mkdir:76): creating directory /opt/pipx/py
+   115.4ms (setup:1125): Adding CACHEDIR.TAG to cache directory
+   115.5ms (setup:1125): Adding CACHEDIR.TAG to cache directory
+   128.9ms (ensure_pipx_paths:134): ⚠️  All pipx binary directories have been appended to PATH. If you are sure you want to proceed, try again with the '--force' flag.
+
+   129.0ms (cli:1187): pipx finished.
