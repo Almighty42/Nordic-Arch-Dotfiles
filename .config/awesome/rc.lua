@@ -210,7 +210,7 @@ end
 
 -- {{{ Variable definitions
 -- Themes define colours, icons, font and wallpapers.init(gears.filesystem.get_themes_dir() .. "default/theme.lua")
-beautiful.init("/home/Almighty42/.config/awesome/theme.lua")
+beautiful.init(os.getenv("HOME") .. "/.config/awesome/theme.lua")
 
 -- This is used later as the default terminal and editor to run.
 terminal = "wezterm"
@@ -551,57 +551,57 @@ globalkeys = gears.table.join(
 
 	-- Open Rofi Menu
 	awful.key({ modkey }, "p", function()
-		awful.spawn("/home/Almighty42/.config/rofi/scripts/launcher_t1")
+		awful.spawn(os.getenv("HOME") .. "/.config/rofi/scripts/launcher_t1")
 	end, { description = "show the menubar", group = "launcher" }),
 
 	-- Open Rofi based Volume Menu / F1
 	awful.key({ modkey }, "F1", function()
-		awful.spawn.with_shell("/home/Almighty42/.config/rofi/applets/bin/volume.sh")
+		awful.spawn.with_shell(os.getenv("HOME") .. "/.config/rofi/applets/bin/volume.sh")
 	end, { description = "open volume screen", group = "media" }),
 
 	-- Open Rofi based Volume Menu / F2
 	awful.key({ modkey }, "F2", function()
-		awful.spawn.with_shell("/home/Almighty42/.config/rofi/applets/bin/volume.sh")
+		awful.spawn.with_shell(os.getenv("HOME") .. "/.config/rofi/applets/bin/volume.sh")
 	end, { description = "open volume screen", group = "media" }),
 
 	-- Open Rofi based Volume Menu / F3
 	awful.key({ modkey }, "F3", function()
-		awful.spawn.with_shell("/home/Almighty42/.config/rofi/applets/bin/volume.sh")
+		awful.spawn.with_shell(os.getenv("HOME") .. "/.config/rofi/applets/bin/volume.sh")
 	end, { description = "open volume screen", group = "media" }),
 
 	-- Open Rofi based Volume Menu / F4
 	awful.key({ modkey }, "F4", function()
-		awful.spawn.with_shell("/home/Almighty42/.config/rofi/applets/bin/volume.sh")
+		awful.spawn.with_shell(os.getenv("HOME") .. "/.config/rofi/applets/bin/volume.sh")
 	end, { description = "open volume screen", group = "media" }),
 
 	-- Open Rofi based Brightness Menu / F5
 	awful.key({ modkey }, "F5", function()
-		awful.spawn.with_shell("/home/Almighty42/.config/rofi/applets/bin/brightness.sh")
+		awful.spawn.with_shell(os.getenv("HOME") .. "/.config/rofi/applets/bin/brightness.sh")
 	end, { description = "open brightness screen", group = "media" }),
 
 	-- Open Rofi based Brightness Menu / F6
 	awful.key({ modkey }, "F6", function()
-		awful.spawn.with_shell("/home/Almighty42/.config/rofi/applets/bin/brightness.sh")
+		awful.spawn.with_shell(os.getenv("HOME") .. "/.config/rofi/applets/bin/brightness.sh")
 	end, { description = "open brightness screen", group = "media" }),
 
 	-- Open Rofi based Battery Menu / F7
 	awful.key({ modkey }, "F7", function()
-		awful.spawn.with_shell("/home/Almighty42/.config/rofi/applets/bin/battery.sh")
+		awful.spawn.with_shell(os.getenv("HOME") .. "/.config/rofi/applets/bin/battery.sh")
 	end, { description = "open battery screen", group = "media" }),
 
 	-- Open Rofi based Music Menu / F8
 	awful.key({ modkey }, "F8", function()
-		awful.spawn.with_shell("/home/Almighty42/.config/rofi/applets/bin/mpd.sh")
+		awful.spawn.with_shell(os.getenv("HOME") .. "/.config/rofi/applets/bin/mpd.sh")
 	end, { description = "open music screen", group = "media" }),
 
 	-- Open Rofi based Power Menu
 	awful.key({ modkey }, "F9", function()
-		awful.spawn.with_shell("/home/Almighty42/.config/rofi/scripts/powermenu_t2")
+		awful.spawn.with_shell(os.getenv("HOME") .. "/.config/rofi/scripts/powermenu_t2")
 	end, { description = "open powermenu screen", group = "launcher" }),
 
 	-- Open Rofi based Screenshot Menu / F10
 	awful.key({ modkey }, "F10", function()
-		awful.spawn.with_shell("/home/Almighty42/.config/rofi/applets/bin/screenshot.sh")
+		awful.spawn.with_shell(os.getenv("HOME") .. "/.config/rofi/applets/bin/screenshot.sh")
 	end, { description = "open screenshot screen", group = "media" }),
 
 	-- NOTE:
