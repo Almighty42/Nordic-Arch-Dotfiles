@@ -3,14 +3,14 @@ function config {
    /usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME $@
 }
 mkdir -p .config-backup
-config checkout --force
+config checkout -f main
 if [ $? = 0 ]; then
   echo "Checked out config.";
   else
     echo "Backing up pre-existing dot files.";
-    config checkout --force 2>&1 | egrep "\s+\." | awk {'print $1'} | xargs -I{} mv {} .config-backup/{}
+    config checkout -f main 2>&1 | egrep "\s+\." | awk {'print $1'} | xargs -I{} mv {} .config-backup/{}
 fi;
-config checkout --force
+config checkout -f main
 config config status.showUntrackedFiles no
 rm -rf $HOME/README.md
 rm -rf $HOME/install.sh
