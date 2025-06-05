@@ -216,7 +216,6 @@ CopyFile /usr/share/texmf-dist/ls-R
 CopyFile /usr/share/vim/vimfiles/doc/tags
 SetFileProperty /usr/share/Kvantum/MateriaNordDark group ''
 SetFileProperty /usr/share/Kvantum/MateriaNordDark owner ''
-CopyFile /usr/bin/rclone 755
 CreateLink /etc/systemd/system/multi-user.target.wants/sshd.service /usr/lib/systemd/system/sshd.service
 CreateDir /temp
 RemoveFile /etc/shells
