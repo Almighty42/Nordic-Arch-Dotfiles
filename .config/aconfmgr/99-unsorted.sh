@@ -1,11 +1,6 @@
 
 
-# Thu Jun  5 11:37:02 AM CEST 2025 - New / changed files
-
-
-
-
-# Thu Jun  5 11:37:02 AM CEST 2025 - New file properties
+# Thu Jun  5 12:12:34 PM CEST 2025 - New file properties
 
 
 SetFileProperty /etc/libvirt/libvirt-admin.conf deleted y

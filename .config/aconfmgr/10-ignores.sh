@@ -53,6 +53,7 @@ IgnorePath '/opt/brew/*' # Brew config
 IgnorePath '/etc/NetworkManager/*'
 IgnorePath '/usr/share/icons/Papirus/*'
 IgnorePath '/var/db/sudo/lectured/1000'
+IgnorePath '/usr/bin/rclone'
 
 # INFO:
 # Unknown files
