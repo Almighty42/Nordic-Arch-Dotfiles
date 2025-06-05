@@ -14,6 +14,7 @@ IgnorePath '/usr/lib/modules/*'
 IgnorePath '/usr/local/bin/*' # should be manageable like $HOME
 IgnorePath '/etc/resolv.conf' # managed by dhcpcd
 IgnorePath '/etc/fstab' # UUIDs
+IgnorePath '/etc/libvirt' # Junk
 
 # INFO: 
 # Password files

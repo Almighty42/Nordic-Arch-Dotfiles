@@ -1,0 +1,65 @@
+
+
+# Thu Jun  5 11:37:02 AM CEST 2025 - New / changed files
+
+
+
+
+# Thu Jun  5 11:37:02 AM CEST 2025 - New file properties
+
+
+SetFileProperty /etc/libvirt/libvirt-admin.conf deleted y
+SetFileProperty /etc/libvirt/libvirt.conf deleted y
+SetFileProperty /etc/libvirt/libvirtd.conf deleted y
+SetFileProperty /etc/libvirt/lxc.conf deleted y
+SetFileProperty /etc/libvirt/lxc/autostart deleted y
+SetFileProperty /etc/libvirt/lxc deleted y
+SetFileProperty /etc/libvirt/network.conf deleted y
+SetFileProperty /etc/libvirt/nwfilter/allow-arp.xml deleted y
+SetFileProperty /etc/libvirt/nwfilter/allow-dhcp-server.xml deleted y
+SetFileProperty /etc/libvirt/nwfilter/allow-dhcp.xml deleted y
+SetFileProperty /etc/libvirt/nwfilter/allow-dhcpv6-server.xml deleted y
+SetFileProperty /etc/libvirt/nwfilter/allow-dhcpv6.xml deleted y
+SetFileProperty /etc/libvirt/nwfilter/allow-incoming-ipv4.xml deleted y
+SetFileProperty /etc/libvirt/nwfilter/allow-incoming-ipv6.xml deleted y
+SetFileProperty /etc/libvirt/nwfilter/allow-ipv4.xml deleted y
+SetFileProperty /etc/libvirt/nwfilter/allow-ipv6.xml deleted y
+SetFileProperty /etc/libvirt/nwfilter/clean-traffic-gateway.xml deleted y
+SetFileProperty /etc/libvirt/nwfilter/clean-traffic.xml deleted y
+SetFileProperty /etc/libvirt/nwfilter/no-arp-ip-spoofing.xml deleted y
+SetFileProperty /etc/libvirt/nwfilter/no-arp-mac-spoofing.xml deleted y
+SetFileProperty /etc/libvirt/nwfilter/no-arp-spoofing.xml deleted y
+SetFileProperty /etc/libvirt/nwfilter/no-ip-multicast.xml deleted y
+SetFileProperty /etc/libvirt/nwfilter/no-ip-spoofing.xml deleted y
+SetFileProperty /etc/libvirt/nwfilter/no-ipv6-multicast.xml deleted y
+SetFileProperty /etc/libvirt/nwfilter/no-ipv6-spoofing.xml deleted y
+SetFileProperty /etc/libvirt/nwfilter/no-mac-broadcast.xml deleted y
+SetFileProperty /etc/libvirt/nwfilter/no-mac-spoofing.xml deleted y
+SetFileProperty /etc/libvirt/nwfilter/no-other-l2-traffic.xml deleted y
+SetFileProperty /etc/libvirt/nwfilter/no-other-rarp-traffic.xml deleted y
+SetFileProperty /etc/libvirt/nwfilter/qemu-announce-self-rarp.xml deleted y
+SetFileProperty /etc/libvirt/nwfilter/qemu-announce-self.xml deleted y
+SetFileProperty /etc/libvirt/nwfilter mode 700
+SetFileProperty /etc/libvirt/qemu-lockd.conf deleted y
+SetFileProperty /etc/libvirt/qemu.conf deleted y
+SetFileProperty /etc/libvirt/qemu/autostart deleted y
+SetFileProperty /etc/libvirt/qemu/networks/autostart deleted y
+SetFileProperty /etc/libvirt/qemu/networks/default.xml deleted y
+SetFileProperty /etc/libvirt/qemu/networks deleted y
+SetFileProperty /etc/libvirt/qemu deleted y
+SetFileProperty /etc/libvirt/storage/autostart deleted y
+SetFileProperty /etc/libvirt/storage deleted y
+SetFileProperty /etc/libvirt/virt-login-shell.conf deleted y
+SetFileProperty /etc/libvirt/virtchd.conf deleted y
+SetFileProperty /etc/libvirt/virtinterfaced.conf deleted y
+SetFileProperty /etc/libvirt/virtlockd.conf deleted y
+SetFileProperty /etc/libvirt/virtlogd.conf deleted y
+SetFileProperty /etc/libvirt/virtlxcd.conf deleted y
+SetFileProperty /etc/libvirt/virtnetworkd.conf deleted y
+SetFileProperty /etc/libvirt/virtnodedevd.conf deleted y
+SetFileProperty /etc/libvirt/virtnwfilterd.conf deleted y
+SetFileProperty /etc/libvirt/virtproxyd.conf deleted y
+SetFileProperty /etc/libvirt/virtqemud.conf deleted y
+SetFileProperty /etc/libvirt/virtsecretd.conf deleted y
+SetFileProperty /etc/libvirt/virtstoraged.conf deleted y
+SetFileProperty /etc/libvirt/virtvboxd.conf deleted y
