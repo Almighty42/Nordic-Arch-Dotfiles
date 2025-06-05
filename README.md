@@ -7,6 +7,14 @@ This is my first linux rice - Arch based with a focus on the Nord/ic color palle
 **Keep in mind** that you probably *won't need* most of the programs and configs present here, pick what you need and discard the rest.
 
 ## Preview
+<div align="center">
+  <img src="https://i.imgur.com/zedcK1o.png" alt="Description of Image 1" width="49%">
+  <img src="https://i.imgur.com/3H3OUpd.png" alt="Description of Image 2" width="49%">
+  <br> <img src="https://i.imgur.com/6f0tpMA.png" alt="Description of Image 3" width="49%">
+  <img src="https://i.imgur.com/YmSYi0D.png" alt="Description of Image 4" width="49%">
+  <br> <img src="https://i.imgur.com/S8LaVfG.png" alt="Description of Image 5" width="49%">
+  <img src="https://i.imgur.com/fZROISH.png" alt="Description of Image 6" width="49%">
+</div>
 
 ## Installation
 
