@@ -1,0 +1,17 @@
+BasedOnStyle: LLVM
+UseTab: Always
+IndentWidth: 6
+TabWidth: 6
+BreakBeforeBraces: Allman
+BraceWrapping:
+  AfterFunction: true
+  AfterControlStatement: true
+  AfterClass: true
+  AfterStruct: true
+  AfterEnum: true
+  AfterNamespace: true
+  AfterUnion: true
+  AfterExternBlock: true
+  SplitEmptyFunction: false
+  SplitEmptyRecord: false
+  SplitEmptyNamespace: false
