@@ -144,6 +144,7 @@ alias ccon="cd $HOME/.config"
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias s="$HOME/Scripts/User-Scripts"
 alias st="systemctl-tui"
+alias p="python3"
 
 gclfull() {
   $HOME/Scripts/User-Scripts/gclfull.sh $1 $2
