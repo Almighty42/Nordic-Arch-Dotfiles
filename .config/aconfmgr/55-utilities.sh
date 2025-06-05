@@ -70,6 +70,8 @@ AddPackage arch-wiki-docs # Pages from Arch Wiki optimized for offline browsing
 AddPackage btop # A monitor of system resources, bpytop ported to C++
 AddPackage powertop # A tool to diagnose issues with power consumption and power management
 AddPackage systemctl-tui # A fast, simple TUI for interacting with systemd services and their logs
+AddPackage --foreign pacseek # A terminal user interface for searching and installing Arch Linux packages
+AddPackage --foreign pacseek-debug # Detached debugging symbols for pacseek
 
 # INFO:
 # GUI utilities
