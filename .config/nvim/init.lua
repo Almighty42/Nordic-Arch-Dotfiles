@@ -168,7 +168,9 @@ vim.opt.confirm = true
 --  See `:help hlsearch`
 
 -- NOTE: CUSTOM KEYMAPS
---
+
+vim.keymap.set('n', '<leader>in', ':intro<CR>', { desc = 'Open Neovim introductory screen' })
+
 -- NOTE: Barbar.nvim
 
 -- Move to next/previous
@@ -774,7 +776,7 @@ require('lazy').setup {
       formatters_by_ft = {
         lua = { 'stylua' },
         c = { 'clang-format' },
-        python = { 'autopep8' },
+        python = { 'ruff' },
         -- Conform can also run multiple formatters sequentially
         -- python = { "isort", "black" },
         --
