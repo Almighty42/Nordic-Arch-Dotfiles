@@ -20,6 +20,7 @@ AddPackage mingw-w64-gcc # Cross GCC for the MinGW-w64 cross-compiler
 AddPackage --foreign mit-scheme # MIT/GNU Scheme
 AddPackage --foreign mit-scheme-debug # Detached debugging symbols for mit-scheme
 AddPackage xonsh # A python-powered shell. Full-featured and cross-platform.
+AddPackage rustup # The Rust toolchain installer
 
 # INFO:
 # CLI utilities
