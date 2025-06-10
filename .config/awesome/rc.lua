@@ -879,6 +879,7 @@ client.connect_signal("mouse::enter", function(c)
 end)
 
 awful.spawn("picom")
+awful.spawn.with_shell("$HOME/.config/polybar/launch.sh --forest")
 
 client.connect_signal("focus", function(c)
 	c.border_color = beautiful.border_focus
