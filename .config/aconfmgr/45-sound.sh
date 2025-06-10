@@ -15,7 +15,6 @@ AddPackage gst-plugin-pipewire # Multimedia graph framework - pipewire plugin
 AddPackage alsa-utils # Advanced Linux Sound Architecture - Utilities
 AddPackage libpulse # A featureful, general-purpose sound server (client library)
 AddPackage libsamplerate # An audio sample rate conversion library
-AddPackage pulseaudio-bluetooth # Bluetooth support for PulseAudio
 
 # INFO:
 # Audio control programs
