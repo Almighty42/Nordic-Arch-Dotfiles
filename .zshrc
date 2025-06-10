@@ -145,6 +145,7 @@ alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias s="$HOME/Scripts/User-Scripts"
 alias st="systemctl-tui"
 alias p="python3"
+alias sourc="source ./venv/bin/activate"
 
 gclfull() {
   $HOME/Scripts/User-Scripts/gclfull.sh $1 $2
@@ -155,6 +156,8 @@ cr() {
 gitqadd() {
   $HOME/Scripts/User-Scripts/gitqadd.sh $1
 }
+v1() { nvim $(ls -t | head -n1) }
+p1() { python3 $(ls -t | head -n1) }
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

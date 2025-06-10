@@ -44,8 +44,6 @@ AddPackage transmission-cli # Fast, easy, and free BitTorrent client (CLI tools,
 AddPackage mediainfo # Supplies technical and tag information about media files (CLI interface)
 AddPackage --foreign yay # Yet another yogurt. Pacman wrapper and AUR helper written in go.
 AddPackage --foreign yay-debug # Detached debugging symbols for yay
-AddPackage --foreign paru # Feature packed AUR helper
-AddPackage --foreign paru-debug # Detached debugging symbols for paru
 AddPackage recordmydesktop # Produces a OGG encapsulated Theora/Vorbis recording of your desktop
 AddPackage npm # JavaScript package manager
 AddPackage unrar # The RAR uncompression program
