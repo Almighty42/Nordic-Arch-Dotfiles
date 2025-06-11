@@ -51,18 +51,16 @@ AddPackage calibre # Ebook management application
 # INFO:
 # File manipulation
 AddPackage gimp # GNU Image Manipulation Program
-AddPackage nano # Pico editor clone with enhancements
 AddPackage imagemagick # An image viewing/manipulation program
 
 # INFO:
 # GUI programs
 AddPackage firefox # Fast, Private & Safe Web Browser
-AddPackage thunderbird # Standalone mail and news reader from mozilla.org
 AddPackage --foreign tauon-music-box # A modern music player
 AddPackage --foreign tauon-music-box-debug # Detached debugging symbols for tauon-music-box
 AddPackage filelight # View disk usage information
 AddPackage qbittorrent # An advanced BitTorrent client programmed in C++, based on Qt toolkit and libtorrent-rasterbar
-AddPackage --foreign usbimager # Minimal GUI application to write compressed disk images to USB drives (GTK+ Frontend)
-AddPackage --foreign usbimager-debug # Detached debugging symbols for usbimager
-AddPackage virtualbox # Powerful x86 virtualization for enterprise as well as home use
-AddPackage virtualbox-host-modules-arch # Virtualbox host kernel modules for Arch Kernel
+# AddPackage --foreign usbimager # Minimal GUI application to write compressed disk images to USB drives (GTK+ Frontend)
+# AddPackage --foreign usbimager-debug # Detached debugging symbols for usbimager
+# AddPackage virtualbox # Powerful x86 virtualization for enterprise as well as home use
+# AddPackage virtualbox-host-modules-arch # Virtualbox host kernel modules for Arch Kernel
