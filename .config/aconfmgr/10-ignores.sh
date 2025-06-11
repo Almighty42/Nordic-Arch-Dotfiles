@@ -66,3 +66,4 @@ IgnorePath '/usr/share/glib-2.0/*' #
 IgnorePath '/etc/pacman.d/mirrorlist.pacnew'
 IgnorePath '/etc/*.pacnew'
 IgnorePath  '/etc/shells'
+IgnorePath '/etc/brlapi.key'
