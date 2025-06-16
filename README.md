@@ -17,6 +17,30 @@ This is my first linux rice - Arch based with a focus on the Nord/ic color palle
 </div>
 
 ## Installation
+**IMPORTANT** - I do not 100% guarantee that the following script/s will **correctly** install the included packages on your machine. You are better off installing the tools / packages manually yourself.
+## The manual way
+Simply run this script in your home directory ( /home/\<your-username>/ ) and then choose which tools / packages to install on your machine by going trough the .config folder. This script requires git so make sure you have it on your machine!
+```bash
+curl -fsSL https://raw.githubusercontent.com/Almighty42/Nordic-Arch-Dotfiles/main/install.sh | bash
+```
+**This will wipe your local dotfiles, back them up!**
+
+## Scripted installation for packages
+If you don't want to install packages yourself, you can use **aconfmgr** tool to do the boring part for you. This tool is **not developed** by me, and it may or may not install everything correctly. 
+Bugs related to the tool itself can also occur, although I've found it to be stable enough for my own needs.
+
+### 1. Install aconfmgr tool
+Run the following command in your terminal, and follow trough the installation process. If something fails, try manually installing the package from AUR.
+```bash
+git clone https://aur.archlinux.org/aconfmgr-git.git && cd aconfmgr-git && makepkg -si
+```
+### 2. Run the aconfmgr apply command
+Simply run
+```bash
+aconfmgr apply
+```
+And go trough the installation process. If prompted with a Y/N - type Y. If yay offers a couple of diffrent versions for some package you can just press enter ( the default option ).
+Once the command finished work you can reboot your machine and enjoy your new system.
 
 ## Specs
 - OS : [Linux Arch](https://wiki.archlinux.org/title/Main_page)
