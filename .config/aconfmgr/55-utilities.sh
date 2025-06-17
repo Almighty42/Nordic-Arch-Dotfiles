@@ -49,7 +49,7 @@ AddPackage rust # Systems programming language focused on safety, speed and conc
 # AddPackage acpi # Client for battery, power, and thermal readings
 # AddPackage menyoki # Screen{shot,cast} and perform ImageOps on the command line
 # AddPackage ueberzug # Command line util which allows to display images in combination with X11
-# AddPackage --foreign aconfmgr-git # A configuration manager for Arch Linux
+AddPackage --foreign aconfmgr-git # A configuration manager for Arch Linux
 # AddPackage --foreign downgrade # Bash script for downgrading one or more packages to a version in your cache or the A.L.A.
 # AddPackage arch-audit # A utility like pkg-audit based on Arch Security Team data
 # AddPackage usbguard # Software framework for implementing USB device authorization policies
