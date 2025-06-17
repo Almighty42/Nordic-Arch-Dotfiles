@@ -122,8 +122,8 @@ CreateDir /opt/pipx/venvs
 # File properties
 SetFileProperty /usr/bin/groupmems group groups
 SetFileProperty /usr/bin/groupmems mode 2750
-SetFileProperty /usr/lib/utempter/utempter group utmp
-SetFileProperty /usr/lib/utempter/utempter mode 2755
+# SetFileProperty /usr/lib/utempter/utempter group utmp
+# SetFileProperty /usr/lib/utempter/utempter mode 2755
 
 # INFO:
 # Plymouth theme
