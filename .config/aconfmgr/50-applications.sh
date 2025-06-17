@@ -13,8 +13,8 @@
 # Desktop Enviroment
 AddPackage picom # Lightweight compositor for X11
 AddPackage awesome # Highly configurable framework window manager
-# AddPackage lightdm # A lightweight display manager
-# AddPackage lightdm-webkit2-greeter # LightDM greeter that uses WebKit2 for theming via HTML/JavaScript.
+AddPackage lightdm # A lightweight display manager
+AddPackage lightdm-webkit2-greeter # LightDM greeter that uses WebKit2 for theming via HTML/JavaScript.
 AddPackage dunst # Customizable and lightweight notification-daemon
 AddPackage rofi # A window switcher, application launcher and dmenu replacement
 # AddPackage plymouth # Graphical boot splash screen
