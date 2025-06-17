@@ -216,5 +216,5 @@ CopyFile /usr/share/fonts/TTF/remixicons.ttf
 # SetFileProperty /usr/share/Kvantum/MateriaNordDark owner ''
 # CreateLink /etc/systemd/system/multi-user.target.wants/sshd.service /usr/lib/systemd/system/sshd.service
 # CreateDir /temp
-RemoveFile /etc/shells
+# RemoveFile /etc/shells
 # CopyFile /etc/brlapi.key 640 '' brlapi
