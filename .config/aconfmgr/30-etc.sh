@@ -10,8 +10,8 @@ CopyFile /etc/hostname
 # CopyFile /etc/locale.conf
 # CopyFile /etc/locale.gen
 # CopyFile /etc/mkinitcpio.conf
-# CopyFile /etc/pacman.conf
-# CopyFile /etc/pacman.d/mirrorlist
+CopyFile /etc/pacman.conf
+CopyFile /etc/pacman.d/mirrorlist
 # CopyFile /etc/shells
 # CopyFile /etc/subgid
 # CopyFile /etc/subuid
