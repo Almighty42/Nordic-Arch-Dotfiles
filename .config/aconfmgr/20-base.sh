@@ -37,8 +37,8 @@ AddPackage vulkan-intel # Open-source Vulkan driver for Intel GPUs
 
 # INFO:
 # Security stuff
-# CreateDir /etc/fail2ban/fail2ban.d
-# CreateDir /etc/fail2ban/jail.d
-# CreateLink /etc/systemd/system/multi-user.target.wants/fail2ban.service /usr/lib/systemd/system/fail2ban.service
-# CreateLink /etc/systemd/system/multi-user.target.wants/ip6tables.service /usr/lib/systemd/system/ip6tables.service
-# CreateLink /etc/systemd/system/multi-user.target.wants/iptables.service /usr/lib/systemd/system/iptables.service
+CreateDir /etc/fail2ban/fail2ban.d
+CreateDir /etc/fail2ban/jail.d
+CreateLink /etc/systemd/system/multi-user.target.wants/fail2ban.service /usr/lib/systemd/system/fail2ban.service
+CreateLink /etc/systemd/system/multi-user.target.wants/ip6tables.service /usr/lib/systemd/system/ip6tables.service
+CreateLink /etc/systemd/system/multi-user.target.wants/iptables.service /usr/lib/systemd/system/iptables.service

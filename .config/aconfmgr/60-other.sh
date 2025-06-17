@@ -204,7 +204,7 @@ CopyFile /usr/share/lightdm-webkit/themes/enkel/main.js
 # CopyFile /etc/texmf/ls-R
 # CopyFile /etc/texmf/web2c/fmtutil.cnf
 # CopyFile /etc/texmf/web2c/updmap.cfg
-# CopyFile /etc/udev/rules.d/95-battery.rules
+CopyFile /etc/udev/rules.d/95-battery.rules
 # CopyFile /usr/bin/papirus-folders 755
 # CopyFile /usr/lib/graphviz/config6
 # CreateLink /usr/lib/jvm/default java-24-openjdk
