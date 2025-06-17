@@ -27,7 +27,7 @@ AddPackage xdg-utils # Command line tools that assist applications with a variet
 # File copy
 # CopyFile /etc/X11/xorg.conf.d/00-keyboard.conf
 # CopyFile /usr/share/X11/xkb/symbols/pc
-# CopyFile /etc/default/grub
+CopyFile /etc/default/grub
 
 # INFO:
 # Various drivers
