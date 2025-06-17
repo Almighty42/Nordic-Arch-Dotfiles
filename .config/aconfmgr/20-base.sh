@@ -25,9 +25,9 @@ AddPackage xorg-xrandr # Primitive command line interface to RandR extension
 AddPackage xdg-utils # Command line tools that assist applications with a variety of desktop integration tasks
 # INFO:
 # File copy
-CopyFile /etc/X11/xorg.conf.d/00-keyboard.conf
-CopyFile /usr/share/X11/xkb/symbols/pc
-CopyFile /etc/default/grub
+# CopyFile /etc/X11/xorg.conf.d/00-keyboard.conf
+# CopyFile /usr/share/X11/xkb/symbols/pc
+# CopyFile /etc/default/grub
 
 # INFO:
 # Various drivers
