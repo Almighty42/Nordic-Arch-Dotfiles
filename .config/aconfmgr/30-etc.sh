@@ -5,8 +5,8 @@
 # Etc file copy
 
 CopyFile /etc/hostname
-# CopyFile /etc/lightdm/lightdm-webkit2-greeter.conf
-# CopyFile /etc/lightdm/lightdm.conf
+CopyFile /etc/lightdm/lightdm-webkit2-greeter.conf
+CopyFile /etc/lightdm/lightdm.conf
 # CopyFile /etc/locale.conf
 # CopyFile /etc/locale.gen
 # CopyFile /etc/mkinitcpio.conf

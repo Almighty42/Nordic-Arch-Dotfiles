@@ -186,16 +186,16 @@ CopyFile /usr/share/fonts/TTF/remixicons.ttf
 
 # INFO:
 # LightDM theme
-# CopyFile /usr/share/lightdm-webkit/themes/enkel/assets/background.jpg
-# CopyFile /usr/share/lightdm-webkit/themes/enkel/assets/scientifica\ Bold.woff
-# CopyFile /usr/share/lightdm-webkit/themes/enkel/assets/scientifica\ Bold.woff2
-# CopyFile /usr/share/lightdm-webkit/themes/enkel/assets/scientifica\ Italic.woff
-# CopyFile /usr/share/lightdm-webkit/themes/enkel/assets/scientifica\ Italic.woff2
-# CopyFile /usr/share/lightdm-webkit/themes/enkel/assets/scientifica.woff
-# CopyFile /usr/share/lightdm-webkit/themes/enkel/assets/scientifica.woff2
-# CopyFile /usr/share/lightdm-webkit/themes/enkel/index.html
-# CopyFile /usr/share/lightdm-webkit/themes/enkel/index.theme
-# CopyFile /usr/share/lightdm-webkit/themes/enkel/main.js
+CopyFile /usr/share/lightdm-webkit/themes/enkel/assets/background.jpg
+CopyFile /usr/share/lightdm-webkit/themes/enkel/assets/scientifica\ Bold.woff
+CopyFile /usr/share/lightdm-webkit/themes/enkel/assets/scientifica\ Bold.woff2
+CopyFile /usr/share/lightdm-webkit/themes/enkel/assets/scientifica\ Italic.woff
+CopyFile /usr/share/lightdm-webkit/themes/enkel/assets/scientifica\ Italic.woff2
+CopyFile /usr/share/lightdm-webkit/themes/enkel/assets/scientifica.woff
+CopyFile /usr/share/lightdm-webkit/themes/enkel/assets/scientifica.woff2
+CopyFile /usr/share/lightdm-webkit/themes/enkel/index.html
+CopyFile /usr/share/lightdm-webkit/themes/enkel/index.theme
+CopyFile /usr/share/lightdm-webkit/themes/enkel/main.js
 
 # NOTE:
 # Random stuff
