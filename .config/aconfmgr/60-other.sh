@@ -85,32 +85,32 @@ CopyFile /usr/share/fonts/TTF/remixicons.ttf
 
 # INFO:
 # Python packages
-AddPackage python-aiohttp # HTTP client/server for asyncio
-AddPackage python-beautifulsoup4 # A Python HTML/XML parser designed for quick turnaround projects like screen-scraping
-AddPackage python-cairo # Python bindings for the cairo graphics library
-AddPackage python-dbus # Python bindings for D-Bus
-AddPackage python-gobject # Python bindings for GLib/GObject/GIO/GTK
-AddPackage python-musicbrainzngs # Python bindings for Musicbrainz' NGS webservice
-AddPackage python-mutagen # An audio metadata tag reader and writer (python library)
-AddPackage python-natsort # Simple yet flexible natural sorting in Python
-AddPackage python-pillow # Python Imaging Library (PIL) fork
-AddPackage python-pip # The PyPA recommended tool for installing Python packages
-AddPackage python-pipx # Install and Run Python Applications in Isolated Environments
-AddPackage python-pylast # A Python interface to Last.fm and Libre.fm
-AddPackage python-requests # Python HTTP for Humans
-AddPackage python-send2trash # Send file to trash natively
-AddPackage python-setproctitle # Allows a python process to change its process title
-AddPackage python-unidecode # ASCII transliterations of Unicode text
-AddPackage python-virtualenv # Virtual Python Environment builder
-AddPackage python-websocket-client # WebSocket client library for Python
-AddPackage --foreign python-pysdl3 # Python ctypes wrapper around SDL3
-AddPackage --foreign python-pysdl3-debug # Detached debugging symbols for python-pysdl3
-AddPackage python-blinker # Fast, simple object-to-object and broadcast signaling
-AddPackage python-pyxdg # Python library to access freedesktop.org standards
-AddPackage python-urwid # Curses-based user interface library
-AddPackage python-urwidtrees # Tree widgets for urwid.
-AddPackage --foreign python-async-timeout # Timeout context manager for asyncio programs.
-AddPackage --foreign pywal-git # Generate and change color-schemes on the fly.
+# AddPackage python-aiohttp # HTTP client/server for asyncio
+# AddPackage python-beautifulsoup4 # A Python HTML/XML parser designed for quick turnaround projects like screen-scraping
+# AddPackage python-cairo # Python bindings for the cairo graphics library
+# AddPackage python-dbus # Python bindings for D-Bus
+# AddPackage python-gobject # Python bindings for GLib/GObject/GIO/GTK
+# AddPackage python-musicbrainzngs # Python bindings for Musicbrainz' NGS webservice
+# AddPackage python-mutagen # An audio metadata tag reader and writer (python library)
+# AddPackage python-natsort # Simple yet flexible natural sorting in Python
+# AddPackage python-pillow # Python Imaging Library (PIL) fork
+# AddPackage python-pip # The PyPA recommended tool for installing Python packages
+# AddPackage python-pipx # Install and Run Python Applications in Isolated Environments
+# AddPackage python-pylast # A Python interface to Last.fm and Libre.fm
+# AddPackage python-requests # Python HTTP for Humans
+# AddPackage python-send2trash # Send file to trash natively
+# AddPackage python-setproctitle # Allows a python process to change its process title
+# AddPackage python-unidecode # ASCII transliterations of Unicode text
+# AddPackage python-virtualenv # Virtual Python Environment builder
+# AddPackage python-websocket-client # WebSocket client library for Python
+# AddPackage --foreign python-pysdl3 # Python ctypes wrapper around SDL3
+# AddPackage --foreign python-pysdl3-debug # Detached debugging symbols for python-pysdl3
+# AddPackage python-blinker # Fast, simple object-to-object and broadcast signaling
+# AddPackage python-pyxdg # Python library to access freedesktop.org standards
+# AddPackage python-urwid # Curses-based user interface library
+# AddPackage python-urwidtrees # Tree widgets for urwid.
+# AddPackage --foreign python-async-timeout # Timeout context manager for asyncio programs.
+# AddPackage --foreign pywal-git # Generate and change color-schemes on the fly.
 
 # INFO:
 # Pipx
@@ -124,67 +124,65 @@ SetFileProperty /usr/bin/groupmems group groups
 SetFileProperty /usr/bin/groupmems mode 2750
 SetFileProperty /usr/lib/utempter/utempter group utmp
 SetFileProperty /usr/lib/utempter/utempter mode 2755
-SetFileProperty /usr/share/Kvantum/MateriaNordDark group Almighty42
-SetFileProperty /usr/share/Kvantum/MateriaNordDark owner Almighty42
 
 # INFO:
 # Plymouth theme
-CopyFile /usr/share/plymouth/themes/loader_2.plymouth 755
-CopyFile /usr/share/plymouth/themes/loader_2.script 755
-CopyFile /usr/share/plymouth/themes/loader_2/LICENSE
-CopyFile /usr/share/plymouth/themes/loader_2/loader_2.plymouth 755
-CopyFile /usr/share/plymouth/themes/loader_2/loader_2.script 755
-CopyFile /usr/share/plymouth/themes/loader_2/progress-0.png
-CopyFile /usr/share/plymouth/themes/loader_2/progress-1.png
-CopyFile /usr/share/plymouth/themes/loader_2/progress-10.png
-CopyFile /usr/share/plymouth/themes/loader_2/progress-11.png
-CopyFile /usr/share/plymouth/themes/loader_2/progress-12.png
-CopyFile /usr/share/plymouth/themes/loader_2/progress-13.png
-CopyFile /usr/share/plymouth/themes/loader_2/progress-14.png
-CopyFile /usr/share/plymouth/themes/loader_2/progress-15.png
-CopyFile /usr/share/plymouth/themes/loader_2/progress-16.png
-CopyFile /usr/share/plymouth/themes/loader_2/progress-17.png
-CopyFile /usr/share/plymouth/themes/loader_2/progress-18.png
-CopyFile /usr/share/plymouth/themes/loader_2/progress-19.png
-CopyFile /usr/share/plymouth/themes/loader_2/progress-2.png
-CopyFile /usr/share/plymouth/themes/loader_2/progress-20.png
-CopyFile /usr/share/plymouth/themes/loader_2/progress-21.png
-CopyFile /usr/share/plymouth/themes/loader_2/progress-22.png
-CopyFile /usr/share/plymouth/themes/loader_2/progress-23.png
-CopyFile /usr/share/plymouth/themes/loader_2/progress-24.png
-CopyFile /usr/share/plymouth/themes/loader_2/progress-25.png
-CopyFile /usr/share/plymouth/themes/loader_2/progress-26.png
-CopyFile /usr/share/plymouth/themes/loader_2/progress-27.png
-CopyFile /usr/share/plymouth/themes/loader_2/progress-28.png
-CopyFile /usr/share/plymouth/themes/loader_2/progress-29.png
-CopyFile /usr/share/plymouth/themes/loader_2/progress-3.png
-CopyFile /usr/share/plymouth/themes/loader_2/progress-30.png
-CopyFile /usr/share/plymouth/themes/loader_2/progress-31.png
-CopyFile /usr/share/plymouth/themes/loader_2/progress-32.png
-CopyFile /usr/share/plymouth/themes/loader_2/progress-33.png
-CopyFile /usr/share/plymouth/themes/loader_2/progress-34.png
-CopyFile /usr/share/plymouth/themes/loader_2/progress-35.png
-CopyFile /usr/share/plymouth/themes/loader_2/progress-36.png
-CopyFile /usr/share/plymouth/themes/loader_2/progress-37.png
-CopyFile /usr/share/plymouth/themes/loader_2/progress-38.png
-CopyFile /usr/share/plymouth/themes/loader_2/progress-39.png
-CopyFile /usr/share/plymouth/themes/loader_2/progress-4.png
-CopyFile /usr/share/plymouth/themes/loader_2/progress-40.png
-CopyFile /usr/share/plymouth/themes/loader_2/progress-41.png
-CopyFile /usr/share/plymouth/themes/loader_2/progress-42.png
-CopyFile /usr/share/plymouth/themes/loader_2/progress-43.png
-CopyFile /usr/share/plymouth/themes/loader_2/progress-44.png
-CopyFile /usr/share/plymouth/themes/loader_2/progress-45.png
-CopyFile /usr/share/plymouth/themes/loader_2/progress-46.png
-CopyFile /usr/share/plymouth/themes/loader_2/progress-47.png
-CopyFile /usr/share/plymouth/themes/loader_2/progress-48.png
-CopyFile /usr/share/plymouth/themes/loader_2/progress-49.png
-CopyFile /usr/share/plymouth/themes/loader_2/progress-5.png
-CopyFile /usr/share/plymouth/themes/loader_2/progress-6.png
-CopyFile /usr/share/plymouth/themes/loader_2/progress-7.png
-CopyFile /usr/share/plymouth/themes/loader_2/progress-8.png
-CopyFile /usr/share/plymouth/themes/loader_2/progress-9.png
-CopyFile /etc/plymouth/plymouthd.conf
+# CopyFile /usr/share/plymouth/themes/loader_2.plymouth 755
+# CopyFile /usr/share/plymouth/themes/loader_2.script 755
+# CopyFile /usr/share/plymouth/themes/loader_2/LICENSE
+# CopyFile /usr/share/plymouth/themes/loader_2/loader_2.plymouth 755
+# CopyFile /usr/share/plymouth/themes/loader_2/loader_2.script 755
+# CopyFile /usr/share/plymouth/themes/loader_2/progress-0.png
+# CopyFile /usr/share/plymouth/themes/loader_2/progress-1.png
+# CopyFile /usr/share/plymouth/themes/loader_2/progress-10.png
+# CopyFile /usr/share/plymouth/themes/loader_2/progress-11.png
+# CopyFile /usr/share/plymouth/themes/loader_2/progress-12.png
+# CopyFile /usr/share/plymouth/themes/loader_2/progress-13.png
+# CopyFile /usr/share/plymouth/themes/loader_2/progress-14.png
+# CopyFile /usr/share/plymouth/themes/loader_2/progress-15.png
+# CopyFile /usr/share/plymouth/themes/loader_2/progress-16.png
+# CopyFile /usr/share/plymouth/themes/loader_2/progress-17.png
+# CopyFile /usr/share/plymouth/themes/loader_2/progress-18.png
+# CopyFile /usr/share/plymouth/themes/loader_2/progress-19.png
+# CopyFile /usr/share/plymouth/themes/loader_2/progress-2.png
+# CopyFile /usr/share/plymouth/themes/loader_2/progress-20.png
+# CopyFile /usr/share/plymouth/themes/loader_2/progress-21.png
+# CopyFile /usr/share/plymouth/themes/loader_2/progress-22.png
+# CopyFile /usr/share/plymouth/themes/loader_2/progress-23.png
+# CopyFile /usr/share/plymouth/themes/loader_2/progress-24.png
+# CopyFile /usr/share/plymouth/themes/loader_2/progress-25.png
+# CopyFile /usr/share/plymouth/themes/loader_2/progress-26.png
+# CopyFile /usr/share/plymouth/themes/loader_2/progress-27.png
+# CopyFile /usr/share/plymouth/themes/loader_2/progress-28.png
+# CopyFile /usr/share/plymouth/themes/loader_2/progress-29.png
+# CopyFile /usr/share/plymouth/themes/loader_2/progress-3.png
+# CopyFile /usr/share/plymouth/themes/loader_2/progress-30.png
+# CopyFile /usr/share/plymouth/themes/loader_2/progress-31.png
+# CopyFile /usr/share/plymouth/themes/loader_2/progress-32.png
+# CopyFile /usr/share/plymouth/themes/loader_2/progress-33.png
+# CopyFile /usr/share/plymouth/themes/loader_2/progress-34.png
+# CopyFile /usr/share/plymouth/themes/loader_2/progress-35.png
+# CopyFile /usr/share/plymouth/themes/loader_2/progress-36.png
+# CopyFile /usr/share/plymouth/themes/loader_2/progress-37.png
+# CopyFile /usr/share/plymouth/themes/loader_2/progress-38.png
+# CopyFile /usr/share/plymouth/themes/loader_2/progress-39.png
+# CopyFile /usr/share/plymouth/themes/loader_2/progress-4.png
+# CopyFile /usr/share/plymouth/themes/loader_2/progress-40.png
+# CopyFile /usr/share/plymouth/themes/loader_2/progress-41.png
+# CopyFile /usr/share/plymouth/themes/loader_2/progress-42.png
+# CopyFile /usr/share/plymouth/themes/loader_2/progress-43.png
+# CopyFile /usr/share/plymouth/themes/loader_2/progress-44.png
+# CopyFile /usr/share/plymouth/themes/loader_2/progress-45.png
+# CopyFile /usr/share/plymouth/themes/loader_2/progress-46.png
+# CopyFile /usr/share/plymouth/themes/loader_2/progress-47.png
+# CopyFile /usr/share/plymouth/themes/loader_2/progress-48.png
+# CopyFile /usr/share/plymouth/themes/loader_2/progress-49.png
+# CopyFile /usr/share/plymouth/themes/loader_2/progress-5.png
+# CopyFile /usr/share/plymouth/themes/loader_2/progress-6.png
+# CopyFile /usr/share/plymouth/themes/loader_2/progress-7.png
+# CopyFile /usr/share/plymouth/themes/loader_2/progress-8.png
+# CopyFile /usr/share/plymouth/themes/loader_2/progress-9.png
+# CopyFile /etc/plymouth/plymouthd.conf
 
 # INFO:
 # LightDM theme
@@ -201,22 +199,22 @@ CopyFile /usr/share/lightdm-webkit/themes/enkel/main.js
 
 # NOTE:
 # Random stuff
-CreateFile /etc/subgid- > /dev/null
-CreateFile /etc/subuid- > /dev/null
-CopyFile /etc/texmf/ls-R
-CopyFile /etc/texmf/web2c/fmtutil.cnf
-CopyFile /etc/texmf/web2c/updmap.cfg
-CopyFile /etc/udev/rules.d/95-battery.rules
-CopyFile /usr/bin/papirus-folders 755
-CopyFile /usr/lib/graphviz/config6
-CreateLink /usr/lib/jvm/default java-24-openjdk
-CreateLink /usr/lib/jvm/default-runtime java-24-openjdk
-CopyFile /usr/lib/luarocks/rocks-5.1/manifest
-CopyFile /usr/share/texmf-dist/ls-R
-CopyFile /usr/share/vim/vimfiles/doc/tags
-SetFileProperty /usr/share/Kvantum/MateriaNordDark group ''
-SetFileProperty /usr/share/Kvantum/MateriaNordDark owner ''
-CreateLink /etc/systemd/system/multi-user.target.wants/sshd.service /usr/lib/systemd/system/sshd.service
-CreateDir /temp
+# CreateFile /etc/subgid- > /dev/null
+# CreateFile /etc/subuid- > /dev/null
+# CopyFile /etc/texmf/ls-R
+# CopyFile /etc/texmf/web2c/fmtutil.cnf
+# CopyFile /etc/texmf/web2c/updmap.cfg
+# CopyFile /etc/udev/rules.d/95-battery.rules
+# CopyFile /usr/bin/papirus-folders 755
+# CopyFile /usr/lib/graphviz/config6
+# CreateLink /usr/lib/jvm/default java-24-openjdk
+# CreateLink /usr/lib/jvm/default-runtime java-24-openjdk
+# CopyFile /usr/lib/luarocks/rocks-5.1/manifest
+# CopyFile /usr/share/texmf-dist/ls-R
+# CopyFile /usr/share/vim/vimfiles/doc/tags
+# SetFileProperty /usr/share/Kvantum/MateriaNordDark group ''
+# SetFileProperty /usr/share/Kvantum/MateriaNordDark owner ''
+# CreateLink /etc/systemd/system/multi-user.target.wants/sshd.service /usr/lib/systemd/system/sshd.service
+# CreateDir /temp
 RemoveFile /etc/shells
 # CopyFile /etc/brlapi.key 640 '' brlapi
