@@ -17,24 +17,24 @@ AddPackage lightdm # A lightweight display manager
 AddPackage lightdm-webkit2-greeter # LightDM greeter that uses WebKit2 for theming via HTML/JavaScript.
 AddPackage dunst # Customizable and lightweight notification-daemon
 AddPackage rofi # A window switcher, application launcher and dmenu replacement
-# AddPackage plymouth # Graphical boot splash screen
+AddPackage plymouth # Graphical boot splash screen
 AddPackage polybar # A fast and easy-to-use status bar
 
 # INFO:
 # Lightdm files
-# CreateFile /usr/share/lightdm-webkit/themes/enkel/.Rhistory > /dev/null
-# CopyFile /usr/share/lightdm-webkit/themes/enkel/assets/background.jpg
-# CopyFile /usr/share/lightdm-webkit/themes/enkel/assets/scientifica\ Bold.woff
-# CopyFile /usr/share/lightdm-webkit/themes/enkel/assets/scientifica\ Bold.woff2
-# CopyFile /usr/share/lightdm-webkit/themes/enkel/assets/scientifica\ Italic.woff
-# CopyFile /usr/share/lightdm-webkit/themes/enkel/assets/scientifica\ Italic.woff2
-# CopyFile /usr/share/lightdm-webkit/themes/enkel/assets/scientifica.woff
-# CopyFile /usr/share/lightdm-webkit/themes/enkel/assets/scientifica.woff2
-# CopyFile /usr/share/lightdm-webkit/themes/enkel/index.html
-# CopyFile /usr/share/lightdm-webkit/themes/enkel/index.theme
-# CopyFile /usr/share/lightdm-webkit/themes/enkel/main.js
-# CopyFile /etc/lightdm/lightdm-webkit2-greeter.conf
-# CopyFile /etc/lightdm/lightdm.conf
+CreateFile /usr/share/lightdm-webkit/themes/enkel/.Rhistory > /dev/null
+CopyFile /usr/share/lightdm-webkit/themes/enkel/assets/background.jpg
+CopyFile /usr/share/lightdm-webkit/themes/enkel/assets/scientifica\ Bold.woff
+CopyFile /usr/share/lightdm-webkit/themes/enkel/assets/scientifica\ Bold.woff2
+CopyFile /usr/share/lightdm-webkit/themes/enkel/assets/scientifica\ Italic.woff
+CopyFile /usr/share/lightdm-webkit/themes/enkel/assets/scientifica\ Italic.woff2
+CopyFile /usr/share/lightdm-webkit/themes/enkel/assets/scientifica.woff
+CopyFile /usr/share/lightdm-webkit/themes/enkel/assets/scientifica.woff2
+CopyFile /usr/share/lightdm-webkit/themes/enkel/index.html
+CopyFile /usr/share/lightdm-webkit/themes/enkel/index.theme
+CopyFile /usr/share/lightdm-webkit/themes/enkel/main.js
+CopyFile /etc/lightdm/lightdm-webkit2-greeter.conf
+CopyFile /etc/lightdm/lightdm.conf
 
 # INFO:
 # File viewers
