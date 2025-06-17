@@ -114,14 +114,14 @@ CopyFile /usr/share/fonts/TTF/remixicons.ttf
 
 # INFO:
 # Pipx
-CopyFile /opt/pipx/logs/cmd_2025-04-14_19.07.35.log
-CopyFile /opt/pipx/py/CACHEDIR.TAG
-CreateDir /opt/pipx/venvs
+# CopyFile /opt/pipx/logs/cmd_2025-04-14_19.07.35.log
+# CopyFile /opt/pipx/py/CACHEDIR.TAG
+# CreateDir /opt/pipx/venvs
 
 # INFO:
 # File properties
-SetFileProperty /usr/bin/groupmems group groups
-SetFileProperty /usr/bin/groupmems mode 2750
+# SetFileProperty /usr/bin/groupmems group groups
+# SetFileProperty /usr/bin/groupmems mode 2750
 # SetFileProperty /usr/lib/utempter/utempter group utmp
 # SetFileProperty /usr/lib/utempter/utempter mode 2755
 

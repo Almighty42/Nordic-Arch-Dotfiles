@@ -25,9 +25,9 @@ AddPackage xorg-xrandr # Primitive command line interface to RandR extension
 AddPackage xdg-utils # Command line tools that assist applications with a variety of desktop integration tasks
 # INFO:
 # File copy
-CopyFile /etc/X11/xorg.conf.d/00-keyboard.conf
-CopyFile /usr/share/X11/xkb/symbols/pc
-CopyFile /etc/default/grub
+# CopyFile /etc/X11/xorg.conf.d/00-keyboard.conf
+# CopyFile /usr/share/X11/xkb/symbols/pc
+# CopyFile /etc/default/grub
 
 # INFO:
 # Various drivers
@@ -37,8 +37,8 @@ AddPackage vulkan-intel # Open-source Vulkan driver for Intel GPUs
 
 # INFO:
 # Security stuff
-CreateDir /etc/fail2ban/fail2ban.d
-CreateDir /etc/fail2ban/jail.d
-CreateLink /etc/systemd/system/multi-user.target.wants/fail2ban.service /usr/lib/systemd/system/fail2ban.service
-CreateLink /etc/systemd/system/multi-user.target.wants/ip6tables.service /usr/lib/systemd/system/ip6tables.service
-CreateLink /etc/systemd/system/multi-user.target.wants/iptables.service /usr/lib/systemd/system/iptables.service
+# CreateDir /etc/fail2ban/fail2ban.d
+# CreateDir /etc/fail2ban/jail.d
+# CreateLink /etc/systemd/system/multi-user.target.wants/fail2ban.service /usr/lib/systemd/system/fail2ban.service
+# CreateLink /etc/systemd/system/multi-user.target.wants/ip6tables.service /usr/lib/systemd/system/ip6tables.service
+# CreateLink /etc/systemd/system/multi-user.target.wants/iptables.service /usr/lib/systemd/system/iptables.service
