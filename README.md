@@ -34,13 +34,24 @@ Run the following command in your terminal, and follow trough the installation p
 ```bash
 git clone https://aur.archlinux.org/aconfmgr-git.git && cd aconfmgr-git && makepkg -si
 ```
+
 ### 2. Run the aconfmgr apply command
 Simply run
 ```bash
 aconfmgr apply
 ```
 And go trough the installation process. If prompted with a Y/N - type Y. If yay offers a couple of diffrent versions for some package you can just press enter ( the default option ).
-Once the command finished work you can reboot your machine and enjoy your new system.
+Once the command finished work, reboot.
+
+### 3. Finishing touches
+First make sure you are connected to the internet
+```bash
+nmtui
+```
+Set the default shell as ZSH
+```bash
+chsh -s /bin/zsh
+```
 
 ## Specs
 - OS : [Linux Arch](https://wiki.archlinux.org/title/Main_page)
