@@ -214,8 +214,8 @@ CreateLink /usr/lib/jvm/default-runtime java-24-openjdk
 CopyFile /usr/lib/luarocks/rocks-5.1/manifest
 CopyFile /usr/share/texmf-dist/ls-R
 CopyFile /usr/share/vim/vimfiles/doc/tags
-# SetFileProperty /usr/share/Kvantum/MateriaNordDark group ''
-# SetFileProperty /usr/share/Kvantum/MateriaNordDark owner ''
+SetFileProperty /usr/share/Kvantum/MateriaNordDark group ''
+SetFileProperty /usr/share/Kvantum/MateriaNordDark owner ''
 CreateLink /etc/systemd/system/multi-user.target.wants/sshd.service /usr/lib/systemd/system/sshd.service
 CreateDir /temp
 # RemoveFile /etc/shells
