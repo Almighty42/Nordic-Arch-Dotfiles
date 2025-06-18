@@ -158,6 +158,8 @@ gitqadd() {
 }
 v1() { nvim $(ls -t | head -n1) }
 p1() { python3 $(ls -t | head -n1) }
+c1() { cr $(ls -t | head -n1) }
+cp1() { cp $(ls -t | head -n1) $1}
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
