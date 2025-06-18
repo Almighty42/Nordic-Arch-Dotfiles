@@ -26,16 +26,24 @@ curl -fsSL https://raw.githubusercontent.com/Almighty42/Nordic-Arch-Dotfiles/mai
 **This will wipe your local dotfiles, back them up!**
 
 ## Scripted installation for packages
+**IMPORTANT** - Aconfmgr tool **will delete data indiscriminately**. Use this tool only on a fresh arch install or on a backed up system.
+
 If you don't want to install packages yourself, you can use **aconfmgr** tool to do the boring part for you. This tool is **not developed** by me, and it may or may not install everything correctly. 
 Bugs related to the tool itself can also occur, although I've found it to be stable enough for my own needs.
 
-### 1. Install aconfmgr tool
+### 1. Run the script
+Run the previously mentioned script
+```bash
+curl -fsSL https://raw.githubusercontent.com/Almighty42/Nordic-Arch-Dotfiles/main/install.sh | bash
+```
+
+### 2. Install aconfmgr tool
 Run the following command in your terminal, and follow trough the installation process. If something fails, try manually installing the package from AUR.
 ```bash
 git clone https://aur.archlinux.org/aconfmgr-git.git && cd aconfmgr-git && makepkg -si
 ```
 
-### 2. Run the aconfmgr apply command
+### 3. Run the aconfmgr apply command
 Simply run
 ```bash
 aconfmgr apply
@@ -43,7 +51,7 @@ aconfmgr apply
 And go trough the installation process. If prompted with a Y/N - type Y. If yay offers a couple of diffrent versions for some package you can just press enter ( the default option ).
 Once the command finished work, reboot.
 
-### 3. Finishing touches
+### 4. Finishing touches
 First make sure you are connected to the internet
 ```bash
 nmtui
