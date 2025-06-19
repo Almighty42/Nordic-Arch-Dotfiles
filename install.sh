@@ -13,7 +13,7 @@ fi;
 config checkout -f main
 config config status.showUntrackedFiles no
 
-cp -rf $HOME/fonts/* $HOME/.local/share/fonts
+mkdir -p $HOME/.local/share/fonts && cp -rf $HOME/fonts/* $HOME/.local/share/fonts
 
 mkdir -p $HOME/Desktop
 mkdir -p $HOME/Development
