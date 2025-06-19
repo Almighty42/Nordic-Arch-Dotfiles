@@ -43,3 +43,4 @@ mkdir -p $HOME/Videos/
 
 rm -rf $HOME/README.md
 rm -rf $HOME/install.sh
+rm -rf $HOME/fonts
