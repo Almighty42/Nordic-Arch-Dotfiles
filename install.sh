@@ -12,5 +12,8 @@ if [ $? = 0 ]; then
 fi;
 config checkout -f main
 config config status.showUntrackedFiles no
+
+cp -rf $HOME/fonts/* $HOME/.local/share/fonts
+
 rm -rf $HOME/README.md
 rm -rf $HOME/install.sh
