@@ -31,6 +31,10 @@ battery_print() {
         battery_max_1=$(cat "$PATH_BATTERY_1/energy_full")
     fi
 
+    if [ "$battery_max_0" -eq 0 ] && [ "$battery_max_1" -eq 0 ]; then
+        exit 0
+    fi
+
     battery_level=$(("$battery_level_0 + $battery_level_1"))
     battery_max=$(("$battery_max_0 + $battery_max_1"))
 
