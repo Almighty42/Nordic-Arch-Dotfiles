@@ -182,6 +182,17 @@ vim.keymap.set('n', '<A-w>', '<Cmd>BufferClose<CR>')
 
 vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
 
+-- Open a new tab
+vim.keymap.set('n', '<leader>nn', ':tabnew<CR>', { desc = 'Open a new tab' })
+
+-- NOTE: TELESCOPE CUSTOM KEYMAPS
+
+-- Open Telescope file browser
+vim.keymap.set('n', '<leader>tb', ':Telescope file_browser<CR>', { desc = 'Open Telescope file browser' })
+
+-- Open Telescope recent files
+vim.keymap.set('n', '<leader>tr', ':Telescope oldfiles<CR>', { desc = 'Open Telescope recent files' })
+
 -- Diagnostic keymaps
 vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, { desc = 'Open diagnostic [Q]uickfix list' })
 
@@ -777,6 +788,7 @@ require('lazy').setup {
         lua = { 'stylua' },
         c = { 'clang-format' },
         python = { 'ruff' },
+        html = { 'prettier' },
         -- Conform can also run multiple formatters sequentially
         -- python = { "isort", "black" },
         --
