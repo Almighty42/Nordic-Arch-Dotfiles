@@ -182,6 +182,10 @@ vim.keymap.set('n', '<A-w>', '<Cmd>BufferClose<CR>')
 
 vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
 
+-- NOTE: Neotree.nvim
+
+vim.keymap.set('n', '<leader>tn', ':Neotree<CR>', { desc = 'Open Neotree file explorer' })
+
 -- Open a new tab
 vim.keymap.set('n', '<leader>nn', ':tabnew<CR>', { desc = 'Open a new tab' })
 
@@ -693,6 +697,7 @@ require('lazy').setup {
         pyright = {},
         rust_analyzer = {},
         asm_lsp = {},
+        jinja_lsp = {},
         -- ... etc. See `:help lspconfig-all` for a list of all the pre-configured LSPs
         --
         -- Some languages (like typescript) have entire language plugins that can be useful:
@@ -788,7 +793,7 @@ require('lazy').setup {
         lua = { 'stylua' },
         c = { 'clang-format' },
         python = { 'ruff' },
-        html = { 'prettier' },
+        html = { 'superhtml' },
         -- Conform can also run multiple formatters sequentially
         -- python = { "isort", "black" },
         --

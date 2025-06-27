@@ -146,6 +146,7 @@ alias s="$HOME/Scripts/User-Scripts"
 alias st="systemctl-tui"
 alias p="python3"
 alias sourc="source ./venv/bin/activate"
+alias pck="pacseek"
 
 gclfull() {
   $HOME/Scripts/User-Scripts/gclfull.sh $1 $2
