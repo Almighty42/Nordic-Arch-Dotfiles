@@ -445,29 +445,29 @@ globalkeys = gears.table.join(
 	-- Layout hotkeys
 
 	-- Switch between indexes
-	awful.key({ modkey }, "j", function()
+	awful.key({ altkey }, "j", function()
 		awful.client.focus.byidx(1)
 	end, { description = "focus next by index", group = "client" }),
 
-	awful.key({ modkey }, "k", function()
+	awful.key({ altkey }, "k", function()
 		awful.client.focus.byidx(-1)
 	end, { description = "focus previous by index", group = "client" }),
 
 	-- Swap clients
-	awful.key({ modkey, "Shift" }, "j", function()
+	awful.key({ altkey, "Shift" }, "j", function()
 		awful.client.swap.byidx(1)
 	end, { description = "swap with next client by index", group = "client" }),
 
-	awful.key({ modkey, "Shift" }, "k", function()
+	awful.key({ altkey, "Shift" }, "k", function()
 		awful.client.swap.byidx(-1)
 	end, { description = "swap with previous client by index", group = "client" }),
 
 	-- Change width of focused client
-	awful.key({ modkey }, "l", function()
+	awful.key({ altkey }, "l", function()
 		awful.tag.incmwfact(0.05)
 	end, { description = "increase master width factor", group = "layout" }),
 
-	awful.key({ modkey }, "h", function()
+	awful.key({ altkey }, "h", function()
 		awful.tag.incmwfact(-0.05)
 	end, { description = "decrease master width factor", group = "layout" }),
 
@@ -655,6 +655,12 @@ globalkeys = gears.table.join(
 )
 
 clientkeys = gears.table.join(
+
+	-- Close window
+	awful.key({ modkey }, "q", function(c)
+		c:kill()
+	end, { description = "close window", group = "client" }),
+
 	awful.key({ modkey }, "f", function(c)
 		c.fullscreen = not c.fullscreen
 		c:raise()

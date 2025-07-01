@@ -147,6 +147,7 @@ alias st="systemctl-tui"
 alias p="python3"
 alias sourc="source ./venv/bin/activate"
 alias pck="pacseek"
+alias ff="fzf --style full --preview 'fzf-preview.sh {}'"
 
 gclfull() {
   $HOME/Scripts/User-Scripts/gclfull.sh $1 $2
@@ -166,3 +167,4 @@ cp1() { cp $(ls -t | head -n1) $1}
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 #source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source $HOME/.config/nvim/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+eval "$(zoxide init zsh)"
