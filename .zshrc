@@ -11,7 +11,9 @@ export VISUAL=nvim
 export DEVICE=T480
 export CHILD_DEVICE=X230
 export BACKUP_SCRIPTS=$HOME/Scripts/User-Scripts/Backup-Scripts
-neofetch --imgcat --position 0,-50 --source $HOME/.config/neofetch/Terminal-Image-Tmp.png
+export DISABLE_AUTO_UPDATE=true
+# neofetch --imgcat --position 0,-50 --source $HOME/.config/neofetch/Terminal-Image-Tmp.png
+fastfetch
 
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
@@ -132,22 +134,44 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias v="nvim"
 alias ls="lsd"
-alias cdev="cd $HOME/Development"
-alias cdoc="cd $HOME/Documents"
-alias cdow="cd $HOME/Downloads"
-alias cmus="cd $HOME/Music"
-alias cpic="cd $HOME/Pictures"
-alias crep="cd $HOME/Repositories"
-alias ccon="cd $HOME/.config"
+alias v="nvim"
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias s="$HOME/Scripts/User-Scripts"
-alias st="systemctl-tui"
+# alias st="systemctl-tui"
 alias p="python3"
-alias sourc="source ./venv/bin/activate"
+alias sourc="source ./.venv/bin/activate"
 alias pck="pacseek"
-alias ff="fzf --style full --preview 'fzf-preview.sh {}'"
+alias timer_25="tclock timer -d 25m -e aplay ~/Music/timer_alarm.wav && echo 25m >> ~/timer.txt"
+alias timer_5="tclock timer -d 5m -e aplay ~/Music/timer_alarm.wav && echo 5m >> ~/timer.txt"
+alias lgit="lazygit"
+alias ping="gping"
+alias radio="pyradio"
+alias logview="lnav"
+alias filestui="dua i"
+alias mindmap="h-m-m"
+alias ss="neoss"
+alias usrmng="ugm"
+
+# TUI Apps
+# Music - musikcube
+# Docker - Lazydocker
+# System stats - Btop++
+# Git - Lazygit
+# Container stats - cTop
+# TUI ping - gping
+# TUI radio - PyRadio
+# TUI http tool - wuzz
+# Log viewer - lnav
+# TUI for GPG - gpg-tui
+#
+# TUI for DBs - gobang
+# TUI File sizes - dua-cli
+# TUI bandwith - bandwhich
+# TUI Mindmaps - h-m-m
+# TUI ss replacement - neoss
+# TUI user management - ugm
+# TUI encrypted radio comms - Nomad Network
 
 gclfull() {
   $HOME/Scripts/User-Scripts/gclfull.sh $1 $2
@@ -167,4 +191,4 @@ cp1() { cp $(ls -t | head -n1) $1}
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 #source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source $HOME/.config/nvim/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-eval "$(zoxide init zsh)"
+export PATH="/home/almighty42/.local/bin:$PATH"

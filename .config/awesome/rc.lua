@@ -213,7 +213,7 @@ end
 beautiful.init(os.getenv("HOME") .. "/.config/awesome/theme.lua")
 
 -- This is used later as the default terminal and editor to run.
-terminal = "wezterm"
+terminal = "st"
 editor = "vim"
 editor_cmd = terminal .. " -e " .. editor
 
@@ -614,7 +614,7 @@ globalkeys = gears.table.join(
 
 	-- RANGER
 	awful.key({ modkey }, "r", function()
-		awful.spawn("wezterm -e ranger")
+		awful.spawn("st -e ranger")
 	end, { description = "open ranger file manager", group = "launcher" }),
 
 	-- FIREFOX
@@ -631,6 +631,26 @@ globalkeys = gears.table.join(
 	awful.key({ modkey }, "g", function()
 		awful.spawn("gimp")
 	end, { description = "open gimp", group = "launcher" }),
+
+	-- PACSEEK
+	awful.key({ modkey }, "o", function()
+		awful.spawn("st -e pacseek")
+	end, { description = "open pacseek", group = "launcher" }),
+
+	-- CALCURE
+	awful.key({ modkey }, "c", function()
+		awful.spawn("st -e calcure")
+	end, { description = "open calcure", group = "launcher" }),
+
+	-- NMTUI
+	awful.key({ modkey }, "n", function()
+		awful.spawn("st -e nmtui")
+	end, { description = "open nmtui", group = "launcher" }),
+
+	-- DEV MENU
+	awful.key({ modkey }, "0", function()
+		awful.spawn("st -e /home/Almighty42/Scripts/User-Scripts/tmuxpopen.sh")
+	end, { description = "open tmuxp dev menu", group = "launcher" }),
 
 	-- NOTE:
 	-- Other hotkeys
