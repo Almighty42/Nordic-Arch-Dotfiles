@@ -212,6 +212,8 @@ end
 -- Themes define colours, icons, font and wallpapers.init(gears.filesystem.get_themes_dir() .. "default/theme.lua")
 beautiful.init(os.getenv("HOME") .. "/.config/awesome/theme.lua")
 
+beautiful.useless_gap = 6
+
 -- This is used later as the default terminal and editor to run.
 terminal = "st"
 editor = "vim"

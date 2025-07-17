@@ -1,14 +1,21 @@
-start_directory: "${HOME}/Development/Code/Projects-Code/Open-Source-Pirate"
 session_name: Open-Source-Pirate
+start_directory: $HOME/Development/Code/Projects-Code/Open Source Pirate
 windows:
   - window_name: Development
     panes:
-      - sourc && nvim
+      - shell_command:
+        - sourc && v
+    start_directory: $HOME/Development/Code/Projects-Code/Open Source Pirate
   - window_name: Server
     layout: main-vertical
     panes:
-      - wuzz
-      - clear && sourc && p run.py
+      - shell_command:
+        - wuzz
+      - shell_command:
+        - clear && sourc && python run.py
+    start_directory: $HOME/Development/Code/Projects-Code/Open Source Pirate
   - window_name: Git
     panes:
-      - lgit
+      - shell_command:
+        - lgit
+    start_directory: $HOME/Development/Code/Projects-Code/Open Source Pirate
