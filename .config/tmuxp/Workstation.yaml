@@ -1,0 +1,11 @@
+session_name: Workstation
+start_directory: $HOME
+windows:
+  - window_name: Workstation
+    layout: main-vertical
+    panes:
+      - shell_command:
+        - calcure
+      - shell_command:
+        - timer_25
+    start_directory: $HOME
